@@ -5,57 +5,66 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjetoRulpex"
       mc:Ignorable="d" 
-      d:DesignHeight="350" d:DesignWidth="800"
+      d:DesignHeight="400" d:DesignWidth="900"
       Title="Cadastro">
+    <Border>
+        <Border.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </Border.Resources>
+        <Border Background="White" CornerRadius="20" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-    <Grid Margin="10,0,10,10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="800"></ColumnDefinition>
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0*"/>
-            <RowDefinition Height="Auto" MinHeight="442"/>
-            <RowDefinition Height="0*" />
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Border Grid.Row="1" Padding="5" Margin="0,56,0,334" HorizontalAlignment="Center" Width="240">
-            <Label VerticalAlignment="Center" Foreground="Black" FontSize="20" Height="42" Margin="30,0,0,0" HorizontalAlignment="Left" Width="200">
-                Inserir Produto
-            </Label>
-        </Border>
-        <Border Margin="57,143,695,274" Grid.RowSpan="2">
-            <Label HorizontalAlignment="Left" Width="52">
-                Nome:
-            </Label>
-        </Border>
-        <Border Margin="55,196,670,221" Grid.RowSpan="2">
-            <Label Margin="0,-5,0,5">
-                Descrição:
-            </Label>
-        </Border>
-        <Border Margin="57,243,695,178" Grid.RowSpan="2">
-            <Label Margin="10,0,-10,-11">
-                Preço:
-            </Label>
-        </Border>
-        <Button Margin="576,134,102,284" Grid.RowSpan="2">
-            Inserir Imagem
-        </Button>
-        <Button Margin="303,304,420,118" Grid.RowSpan="2" Click="Cadastrar">
-            Cadastrar
-        </Button>
-        <Button Margin="400,304,323,118" Grid.RowSpan="2" Click="Cancelar">
-            Cancelar
-        </Button>
+                <!--title-->
+                <Border Grid.Row="0" Grid.ColumnSpan="2" Padding="5"  HorizontalAlignment="Center">
+                    <Label Content="Inserir Produto" VerticalAlignment="Center" FontSize="20" HorizontalContentAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
 
-        <TextBox Margin="119,149,534,276" Grid.RowSpan="2"/>
-        <TextBox Margin="119,196,534,229" Grid.RowSpan="2"/>
-        <TextBox Margin="119,247,534,178" Grid.RowSpan="2"/>
-     
-        <Grid.Background>
-            <ImageBrush ImageSource="Catalogo.PNG"></ImageBrush>
-        </Grid.Background>
+                <Label Grid.Row="1" Grid.Column="0" Content="Nome:" HorizontalContentAlignment="Right"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Name}" />
 
-    </Grid>
+
+                <Label Grid.Row="2" Grid.Column="0" Content="Descrição:" HorizontalContentAlignment="Right"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Descr}" />
+
+
+                <Label Grid.Row="3" Grid.Column="0" Content="Categoria:" HorizontalContentAlignment="Right"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Cat}" />
+
+
+                <Label Grid.Row="4" Grid.Column="0" Content="Preço:" HorizontalContentAlignment="Right"/>
+                <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Value}"  />
+
+
+                <Grid Grid.Row="5" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition MinWidth="60" Width="*"/>
+                        <ColumnDefinition MinWidth="60" Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Command="{Binding CadastrarCommand}" Width="60" Margin="10" Content="Cadastrar"/>
+                    <Button Grid.Column="1" Command="{Binding CancelarCommand}" Width="60" Margin="10" Content="Cancelar"/>
+                        
+                    
+                </Grid>
+
+            </Grid>
+        </Border>
+
+        <Border.Background>
+            <ImageBrush ImageSource="/ProjetoRulpex;component/Resources/login.png"/>
+        </Border.Background>
+    </Border>
 </Page>

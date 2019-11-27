@@ -17,6 +17,7 @@
                 <Label Content="{Binding Nome, FallbackValue=camiseta 1}" FontSize="30"/>
                 <Label Content="{Binding Valor, FallbackValue=12.3}" FontWeight="Bold"/>
                 <Label Content="{Binding Descr, FallbackValue='camiseta mto loca lá q tem um tanto de descricao'}"/>
+                <Label Content="{Binding cat, FallbackValue='camisetas'}"/>
             </StackPanel>
         </Grid>
     </Border>

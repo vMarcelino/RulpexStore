@@ -107,4 +107,5 @@ venv.bak/
 .vs
 
 frontend/bin
+frontend/obj
 backend/store.db

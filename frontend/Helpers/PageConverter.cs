@@ -22,6 +22,9 @@ namespace ProjetoRulpex
                 case ItemDisplayViewModel vm:
                     return new ItemDisplay() { DataContext = vm };
 
+                case CadastroViewModel vm:
+                    return new Cadastro() { DataContext = vm };
+
                 default:
                     Debugger.Break();
                     throw new NotImplementedException();

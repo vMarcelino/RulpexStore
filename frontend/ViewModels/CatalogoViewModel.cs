@@ -15,6 +15,17 @@ namespace ProjetoRulpex
     class CatalogoViewModel : BaseViewModel
     {
         public ObservableCollection<ItemDisplayViewModel> items { get; set; }
+        public ICommand AddItemCommand { get; set; }
+
+        public CatalogoViewModel()
+        {
+            AddItemCommand = new RelayCommand(AddItem);
+        }
+        private void AddItem()
+        {
+            MainWindowViewModel.StartPage(new CadastroViewModel());
+        }
+
         public override async void Initialize()
         {
             items = new ObservableCollection<ItemDisplayViewModel>();
@@ -26,7 +37,7 @@ namespace ProjetoRulpex
                 {
                     ItemDisplayViewModel newItem = new ItemDisplayViewModel()
                     {
-                        cat = result.Key,
+                        cat = "Em: " + result.Key,
                         Descr = value.description,
                         Nome = value.name,
                         Valor = "R$" + value.value.ToString()
