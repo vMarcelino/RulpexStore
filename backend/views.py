@@ -78,7 +78,7 @@ class Items(flask_restful.Resource):
 
         return cat_info, HTTPStatus.OK
 
-    def post(self):  # add item
+    def post(self):  # add or edit item
         json = flask.request.json
         fields = ['token', 'name', 'description', 'value', 'catalog']
         helpers.check_for_missing_fields_or_404(json, fields)
@@ -105,10 +105,23 @@ class Items(flask_restful.Resource):
             if catalog_db.owner != user_db:
                 return 'You do not own this catalog', HTTPStatus.FORBIDDEN
 
-        item = models.Item(name=name, description=description, value=value, catalog=catalog_db)
+        items_with_name = models.Item.query.filter(models.Item.name == name).filter(models.Item.catalog.owner == user_db).all()
+        
+        if len(items_with_name) > 0:
+            created = False
+            item = items_with_name[0]
+
+            item.description = description
+            item.value = value
+            item.catalog = catalog_db
+
+        else:
+            created = True
+            item = models.Item(name=name, description=description, value=value, catalog=catalog_db)
+
         session.add(item)
         session.commit()
-        return 'Item added', HTTPStatus.OK
+        return 'Item added' if created else 'Item updated', HTTPStatus.OK
 
     def put(self):  # buy
         json = flask.request.json
@@ -123,6 +136,11 @@ class Items(flask_restful.Resource):
             return 'Invalid token', HTTPStatus.UNAUTHORIZED
 
         item_db = models.Item.query.filter(models.Item.id == item_id).first_or_404()
+
+        transaction = models.Transaction(item=item_db, user=user_db)
+        session.add(transaction)
+        session.commit()
+
         return f'item {item_db.name} bought', HTTPStatus.OK
 
 

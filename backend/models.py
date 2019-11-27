@@ -47,6 +47,16 @@ class Item(Base):
     catalog = relationship("Catalog", backref='items')
 
 
+class Transaction(Base):
+    __tablename__ = 'Transaction'
+    id = Column(Integer, primary_key=True)
+    item_id = Column(Integer, ForeignKey('Item.id'))
+    user_id = Column(Integer, ForeignKey('User.id'))
+
+    item = relationship("Item", backref='buyers')
+    user = relationship("User", backref='items_bought')
+
+
 def generate_base():
     from . import helpers
     print('generating base')
