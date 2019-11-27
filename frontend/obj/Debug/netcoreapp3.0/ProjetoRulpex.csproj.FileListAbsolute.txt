@@ -1,0 +1,80 @@
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.csprojAssemblyReference.cache
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.cache
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.lref
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.exe
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.deps.json
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.json
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.dev.json
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\guilh\source\repos\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.g.resources
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfoInputs.cache
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfo.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Login.g.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Login.baml
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Cadastro.g.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Catalogo.g.cs
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Cadastro.baml
+C:\Users\guilh\source\repos\ProjetoRulpex\obj\Debug\netcoreapp3.0\Catalogo.baml
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Cadastro.g.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Catalogo.g.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Login.g.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.cache
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.lref
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.exe
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.deps.json
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.json
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.dev.json
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\Flurl.dll
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\Flurl.Http.dll
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Cadastro.baml
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Catalogo.baml
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\Login.baml
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.g.resources
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfoInputs.cache
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfo.cs
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.csproj.CopyComplete
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\Victor Marcelino\Desktop\feroldi\ProjetoRulpex\ProjetoRulpex\obj\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Cadastro.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Catalogo.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Login.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.cache
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex_MarkupCompile.lref
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.exe
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.deps.json
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.json
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.runtimeconfig.dev.json
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\Flurl.dll
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\Flurl.Http.dll
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Cadastro.baml
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Catalogo.baml
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\Pages\Login.baml
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.g.resources
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfoInputs.cache
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.AssemblyInfo.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.csproj.Fody.CopyLocal.cache
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.csproj.CopyComplete
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.dll
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.pdb
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ProjetoRulpex.csprojAssemblyReference.cache
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ItemDisplay.g.cs
+C:\Users\Victor Marcelino\source\repos\RulpexStore\frontend\obj\Debug\netcoreapp3.0\ItemDisplay.baml
