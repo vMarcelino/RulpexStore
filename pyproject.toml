@@ -6,7 +6,7 @@ authors = ["Victor Marcelino <victor.fmarcelino@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-flask = "^1.1"
+flask = "^2.2"
 flask-restful = "^0.3.7"
 flask-sqlalchemy = "^2.4"
 travel-backpack = "^1.0"
